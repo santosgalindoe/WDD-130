@@ -2,29 +2,32 @@ body {
     background-color: white;
 }
 header {
-    background-color: white;
+    /* top part of page from left to right of screen color */
+    background-color: #57CC99;
 }
 .home-title {
     color: white; 
 }
 h4 {
-    color: white
+    color: black;
 }
 .book, .join {
     background-color: white; 
     text-decoration: none;
 }
 .book:hover, .join:hover {
-    background-color: white; 
+    background-color: #57CC99; 
     color: white; 
 }
 nav a:hover {
-    background-color: white; 
+    background-color: #57CC99;
+    /* THE ACTUAL COLOR THAT APPEARS BEHIND THE LETTERS WHEN HOVERED // COULD HAVE USED NONE AS WELL. */
     color: white;
+    /* COLOR OF ACTUAL LETTERS WHEN HOVERED */
 }
 nav a {
     text-align: center;
-    color: white; 
+    color: white;
     text-decoration: none;
 }
 #contents {
@@ -46,7 +49,8 @@ main section {
 #background {
     /* background  */
     height: 725px;
-    background-color: white;
+    background-color: #F0D2D1;
+    /* colored section above the mountains picture */
 }
 .icon {
     width: 80px; 
@@ -58,16 +62,16 @@ main section {
     background-color: white; 
 }
 .msg h2 {
-    color: white; 
+    color: black; 
 }
 .msg p { 
-    color: white; 
+    color: black; 
 }
 footer {
     background-color: white;
     }
 footer a {
-    color: white;
+    color: black;
     text-decoration: none;
 }
 footer a:hover {
